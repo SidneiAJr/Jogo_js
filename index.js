@@ -1,5 +1,6 @@
-op = Number(prompt("Insira a Opção que Gostaria de Fazer:  "))
+const readline = required('require-sync')
 
+op = Number(prompt("Insira a Opção que Gostaria de Fazer:  "))
 
 function menu(){
     switch(op){
