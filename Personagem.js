@@ -1,4 +1,4 @@
-class Personagem{
+export default class Personagem{
     constructor(nomePersonagem, Classe, Dano, Mana, Level, Reliquia,Vida){
         this.nomePersonagem = nomePersonagem;
         this.Classe = Classe;
