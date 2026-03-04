@@ -1,4 +1,6 @@
-const readline = required('require-sync')
+const readline = require('require-sync')
+
+const prompt = readline
 
 op = Number(prompt("Insira a Opção que Gostaria de Fazer:  "))
 
