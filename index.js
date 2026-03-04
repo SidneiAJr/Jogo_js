@@ -1,10 +1,7 @@
-const readline = require('require-sync')
-
-const prompt = readline
-
-op = Number(prompt("Insira a Opção que Gostaria de Fazer:  "))
+const prompt = require('prompt-sync')();
 
 function menu(){
+    let op = Number(prompt("Insira a Opção que Gostaria de Fazer|  1- Jogar 2-Lutar 3- Retorno ao Menu 4-Seila"))
     switch(op){
          case 1:
             jogar();
