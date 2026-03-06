@@ -15,5 +15,7 @@ Feito em etapas Features:
 ## Opções do Menu | Menu Principal:
 
 1: Opção Jogar
+
 2: Opção Gm
+
 3: Opção Sair
