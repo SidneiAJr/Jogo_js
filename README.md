@@ -19,3 +19,7 @@ Feito em etapas Features:
 - 2: Opção Gm
 
 - 3: Opção Sair
+
+## Dependencias: 
+- Nodemon
+- readline-sync
